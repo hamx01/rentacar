@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>UpiżCARS</title>
+    <link rel="stylesheet" th:href="@{/css/rejestracja.css}">
+    <link rel="icon" type="image/x-icon" th:href="@{/images/ikona.ico}">
+</head>
+<body>
+<div id="all">
+    <div id="menu">
+        <ul>
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="/dostepne">Dostępne samochody</a></li>
+            <li><a href="/rejestracja">Rejestracja</a></li>
+            <li><a href="/wypozycz">Wypożycz</a></li>
+        </ul>
+    </div>
+    <div id="article">
+        <h1>Zarejestruj się w bazie klientów, aby wypożyczyć samochód! </h1>
+        <div id="wypozycz">
+            <form action="/process_rejestracja" method="post">
+                <label for="name">Pesel:</label>
+                <input type="text" id="pesel" name="pesel" required>
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="imie" required>
+                <label for="name">Nazwisko:</label>
+                <input type="text" id="name2" name="nazwisko" required>
+                <label for="name">Adres:</label>
+                <input type="text" id="adress" name="adres" required>
+                <label for="phone">Numer Telefonu:</label>
+                <input type="tel" id="phone" name="numer_telefonu" required>
+                <label for="phone">E-mail:</label>
+                <input type="tel" id="email" name="email" required>
+                <button type="submit">Zarejestruj i przejdź dalej</button>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <p> @2023 - Wszelkie prawa zastrzeżone.</p>
+        <p> Projekt wykonali:<br> Łukasz Tomczyk <br> Andrii Solianyk<br> Artur Szymkiewicz<br> Michał Wojtachnio</p>
+    </div>
+</div>
+</body>
+</html>

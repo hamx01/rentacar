@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" th:href="@{/images/ikona.ico}">
+    <title>Dziękujemy za rejestrację</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .frame {
+            border: 2px solid #333;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="frame">
+    <p>Dziękujemy za rejestrację, zostaniesz przekierowany do sekcji wypożyczenia, za <span id="countdown">5</span> sekund</p>
+</div>
+
+<script>
+    var countdown = 5;
+    var countdownElement = document.getElementById('countdown');
+
+    function updateCountdown() {
+        countdownElement.textContent = countdown;
+        if (countdown === 0) {
+            window.location.href = '/wypozycz';
+        } else {
+            countdown--;
+            setTimeout(updateCountdown, 1000);
+        }
+    }
+
+    window.onload = updateCountdown;
+</script>
+
+</body>
+</html>

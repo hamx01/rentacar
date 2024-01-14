@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UpiżCARS</title>
+	<link rel="stylesheet" th:href="@{/css/wypozycz.css}">
+	<link rel="icon" type="image/x-icon" th:href="@{/images/ikona.ico}">
+</head>
+<body>
+<div id="all">
+	<div id="menu">
+		<ul>
+			<li><a href="/">Strona główna</a></li>
+			<li><a href="/dostepne">Dostępne samochody</a></li>
+			<li><a href="/rejestracja">Rejestracja</a></li>
+			<li><a href="/wypozycz">Wypożycz</a></li>
+		</ul>
+	</div>
+	<div id="article">
+		<h1>Tutaj możesz wypożyczyć swój samochód! </h1>
+		<div id="wypozycz">
+			<form action="/process_wypozycz" method="post">
+				<label for="pesel">Pesel:</label>
+				<input type="text" id="pesel" name="pesel" required>
+				<label for="cars">Model Samochodu:</label>
+				<select name="cars" id="cars">
+				<option value="1">AUDI A3</option>
+				<option value="2">Toyota Yaris</option>
+				<option value="3">Opel Astra</option>
+				<option value="4">Peugeot 4008</option>
+				<option value="5">Opel Insignia</option>
+				<option value="6">Skoda Fabia</option>
+				</select>
+				<label for="pickup_date">Data Odbioru:</label>
+				<input type="date" id="pickup_date" name="pickup_date" required>
+				<label for="return_date">Data Zwrotu:</label>
+				<input type="date" id="return_date" name="return_date" required>
+				<button type="submit">Wypożycz</button></form>
+		</div>
+	</div>
+	<div id="footer">
+		<p> @2023 - Wszelkie prawa zastrzeżone.</p>
+		<p> Projekt wykonali:<br> Łukasz Tomczyk <br> Andrii Solianyk<br> Artur Szymkiewicz<br> Michał Wojtachnio</p>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UpiżCARS</title>
+	<link rel="stylesheet" th:href="@{/css/index.css}">
+	<link rel="stylesheet" th:href="@{/css/leaflet.css}">
+	<link rel="icon" type="image/x-icon" th:href="@{/images/ikona.ico}">
+	<script th:src="@{/js/leaflet.js}"></script>
+</head>
+<body>
+<div id="all">
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="/">Strona główna</a></li>
+				<li><a href="/dostepne">Dostępne samochody</a></li>
+				<li><a href="/rejestracja">Rejestracja</a></li>
+				<li><a href="/wypozycz">Wypożycz</a></li>
+			</ul>
+		</div>
+		<h1>upiżCARS<br>Wypożyczalnia samochodów</h1><br>
+	</div>
+	<div id="article">
+		<h1>Nowo dodane do naszej oferty!</h1>
+		<div id="cars">
+			<div class="car" th:id="samochod1"><img th:src="@{/images/samochod.png}" alt="Toyota Yaris">
+				<h3 th:text="${markaModel1}"></h3>
+				<p th:text="${cenaSamochodu1}"></p>
+			</div>
+			<div class="car" id="samochod2"><img th:src="@{/images/samochod2.png}" alt="Audi A3">
+				<h3 th:text="${markaModel2}"></h3>
+				<p th:text="${cenaSamochodu2}"></p>
+			</div>
+			<div class="car" id="samochod3"><img th:src="@{/images/samochod3.png}" alt="Peugeot 5008">
+				<h3 th:text="${markaModel3}"></h3>
+				<p th:text="${cenaSamochodu3}"></p>
+			</div>
+		</div>
+	</div>
+	<div id="wysokosc2">
+	<div id="article2">
+		<p>Pierwszy raz na naszej stronie? <br> Przejdź do zakładki <p1>rejestracja</p1><br><br> Jeśli nie jesteś pierwszy raz <br> przejdź do zakładki <p1>wypożycz</p1>
+		</p>
+	</div>
+		</div>
+	<div id="body2">
+		<div id="article3">
+			<div id="tekst">
+			<h2> Dlaczego warto wybrać akurat nas?</h2>
+			<p>Wybierając naszą wypożyczalnię samochodów, zyskujesz dostęp do bogatej floty pojazdów, obejmującej różnorodne modele, od praktycznych kompaktów po luksusowe limuzyny. Dbamy o to, aby spełnić wszelkie potrzeby podróżujących - zarówno tych, którzy planują rodzinny wypad, jak i tych, którzy podróżują w celach służbowych. Nasze konkurencyjne ceny to gwarancja, że podróżowanie z nami nie tylko dostarczy niezapomnianych doświadczeń, ale również nie obciąży zbytnio Twojego portfela. Przejrzysta struktura opłat eliminuje nieprzyjemne niespodzianki, a nasz zespół zawsze jest gotów służyć pomocą i udzielić niezbędnych informacji. Oferujemy nie tylko samochody doskonale utrzymane i nowoczesne, ale także kompleksową obsługę klienta. Dzięki temu Twoja podróż z nami stanie się wyjątkowo komfortowa i bezproblemowa. Dołącz do grona zadowolonych klientów, którzy docenili naszą niezawodność, elastyczność i profesjonalizm</p>
+		</div></div>
+		<div id="wysokosc">
+		<div id="article4">
+			<p>Masz pytania?<br> Zadzwoń! <p1>555 456 456</p1><br> Zostaw SMS, oddzwonimy!</p>
+		</div>
+		</div>
+
+		<div id="map">
+			<script>
+				var map = L.map('map').setView([50.87956, 20.63945], 20);
+
+				L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+					attribution: '&copy; <a href="https://github.com/hamx01">Github</a>'
+				}).addTo(map);
+			</script>
+
+
+
+		</div>
+		<div id="footer">
+			<p> @2023 - Wszelkie prawa zastrzeżone.</p>
+			<p> Projekt wykonali:<br> Łukasz Tomczyk <br> Andrii Solianyk<br> Artur Szymkiewicz<br> Michał Wojtachnio</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

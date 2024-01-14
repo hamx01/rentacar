@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" th:href="@{/css/dostepne.css}">
+    <link rel="icon" type="image/x-icon" th:href="@{/images/ikona.ico}">
+    <title>UpiżCARS</title>
+</head>
+<body>
+<div id="all">
+    <div id="header">
+        <div id="menu">
+            <ul>
+                <li><a href="/">Strona główna</a></li>
+                <li><a href="/dostepne">Dostępne samochody</a></li>
+                <li><a href="/rejestracja">Rejestracja</a></li>
+                <li><a href="/wypozycz">Wypożycz</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="article">
+        <h1>Dostępne samochody:</h1>
+        <div id="cars">
+            <div class="car"><img src="samochod.png" th:src="@{images/samochod.png}" alt="Toyota Yaris">
+                <h3 th:text="${markaModel1}"></h3>
+                <p th:text="${cenaSamochodu1}"></p>
+            </div>
+            <div class="car"><img src="samochod2.png" th:src="@{images/samochod2.png}" alt="Audi A3">
+                <h3 th:text="${markaModel2}"></h3>
+                <p th:text="${cenaSamochodu2}"></p>
+            </div>
+            <div class="car"><img src="samochod3.png" th:src="@{images/samochod3.png}" alt="Peugeot 5008">
+                <h3 th:text="${markaModel3}"></h3>
+                <p th:text="${cenaSamochodu3}"></p>
+            </div>
+            <div class="car"><img src="samochod4.png" th:src="@{images/samochod4.png}" alt="Opel Astra">
+                <h3 th:text="${markaModel4}"></h3>
+                <p th:text="${cenaSamochodu4}"></p>
+            </div>
+            <div class="car"><img src="samochod5.png" th:src="@{images/samochod5.png}" alt="Opel Insignia">
+                <h3 th:text="${markaModel5}"></h3>
+                <p th:text="${cenaSamochodu5}"></p>
+            </div>
+            <div class="car"><img src="samochod6.png" th:src="@{images/samochod6.png}" alt="Skoda Fabia">
+                <h3 th:text="${markaModel6}"></h3>
+                <p th:text="${cenaSamochodu6}"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <p> @2023 - Wszelkie prawa zastrzeżone.</p>
+    <p> Projekt wykonali:<br> Łukasz Tomczyk <br> Andrii Solianyk<br> Artur Szymkiewicz<br> Michał Wojtachnio</p>
+</div>
+</body>
+</html>

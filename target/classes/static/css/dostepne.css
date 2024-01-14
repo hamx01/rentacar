@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/header.png');
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1920px;
+}
+
+
+
+#header h1{
+margin: 0;
+text-align: center;
+	font-size: 10vh;
+	color: white;
+}
+
+
+#menu {
+    background-color: rgba(3,0,0,1.00);
+    width: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 200px 40vh rgba(0, 0, 255, 0.5); 
+}
+
+
+
+
+
+#footer{
+	background-color: rgba(1,0,0,0.91);
+	width: auto;
+	height: 20vh;
+	color:white;
+	text-align: center;
+	margin: 0;
+	padding-top:20px;
+	bottom: 0px;
+
+}
+
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu li {
+    margin: 0 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+#menu a:hover {
+    color: #0067C7;
+}
+
+
+#wypozycz form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(130,165,233,0.5); 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cars{
+	flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	padding: 20px;
+    
+}
+
+
+.car {
+		margin: 10px;
+            width: 200px;
+            padding: 15px;
+            background-color: rgba(173,173,173,1.00);
+            text-align: center;
+			 border-radius: 10px;
+	  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        .car img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+.car:hover {
+    background-color: rgba(200, 200, 200, 1.00); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.10); 
+}
+
+
+
+
