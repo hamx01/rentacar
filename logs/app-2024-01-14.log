@@ -1,0 +1,372 @@
+20:50:01.607 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 73984 (/config/IdeaProjects/rentacar/target/classes started by abc in /config/IdeaProjects/rentacar)
+20:50:01.614 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:50:01.649 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:50:01.649 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:50:02.644 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:50:02.662 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+20:50:03.297 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:50:03.310 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:50:03.312 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:50:03.313 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:50:03.349 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:50:03.349 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1699 ms
+20:50:03.666 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:50:03.720 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@6e66041d
+20:50:03.721 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:50:03.879 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:50:04.436 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:50:04.458 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:50:04.477 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:50:04.488 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 3.244 seconds (process running for 4.252)
+20:50:11.860 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [FileRun[token]=d5273d81f5f6f0502d8293394ae144c58440fcc8;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+20:50:11.865 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:50:11.865 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:50:11.867 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:50:11.894 [http-nio-8080-exec-1] INFO  _12a.rentacar.Baza - Polączono do bazy
+20:50:11.901 [http-nio-8080-exec-1] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:50:25.080 [http-nio-8080-exec-10] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:50:53.120 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:50:53.125 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:51:28.580 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 74129 (/config/IdeaProjects/rentacar/target/classes started by abc in /config/IdeaProjects/rentacar)
+20:51:28.586 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:51:28.623 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:51:28.623 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:51:29.149 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:51:29.162 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+20:51:29.626 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:51:29.636 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:51:29.638 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:51:29.638 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:51:29.671 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:51:29.672 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1047 ms
+20:51:30.027 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:51:30.085 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1d3deac
+20:51:30.086 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:51:30.226 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:51:30.693 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:51:30.712 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:51:30.724 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:51:30.734 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 2.523 seconds (process running for 3.589)
+20:51:32.012 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [FileRun[token]=d5273d81f5f6f0502d8293394ae144c58440fcc8;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+20:51:32.017 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:51:32.017 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:51:32.019 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:51:32.045 [http-nio-8080-exec-1] INFO  _12a.rentacar.Baza - Polączono do bazy
+20:51:32.052 [http-nio-8080-exec-1] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:51:43.844 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:51:43.849 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:51:47.023 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 74238 (/config/IdeaProjects/rentacar/target/classes started by abc in /config/IdeaProjects/rentacar)
+20:51:47.032 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:51:47.082 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:51:47.082 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:51:47.696 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:51:47.710 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+20:51:48.172 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:51:48.184 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:51:48.186 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:51:48.186 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:51:48.222 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:51:48.222 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1139 ms
+20:51:48.480 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:51:48.532 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@71cc89f9
+20:51:48.533 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:51:48.693 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:51:49.161 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:51:49.177 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:51:49.188 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:51:49.196 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 2.502 seconds (process running for 4.111)
+20:51:50.178 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [FileRun[token]=d5273d81f5f6f0502d8293394ae144c58440fcc8;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+20:51:50.183 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:51:50.183 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:51:50.184 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:51:50.209 [http-nio-8080-exec-1] INFO  _12a.rentacar.Baza - Polączono do bazy
+20:51:50.215 [http-nio-8080-exec-1] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:51:51.016 [http-nio-8080-exec-10] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:51:51.535 [http-nio-8080-exec-9] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:51:51.937 [http-nio-8080-exec-8] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:51:52.320 [http-nio-8080-exec-7] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:52:28.444 [http-nio-8080-exec-6] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:52:37.409 [http-nio-8080-exec-6] INFO  _12a.rentacar.RentacarController - Loaded /dostepne mapping
+20:52:39.589 [http-nio-8080-exec-6] INFO  _12a.rentacar.RentacarController - Loaded /rejestracja mapping
+20:52:40.117 [http-nio-8080-exec-5] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:52:40.678 [http-nio-8080-exec-4] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:53:06.700 [http-nio-8080-exec-6] INFO  _12a.rentacar.RentacarController - Loaded /dzieki mapping
+20:53:11.788 [http-nio-8080-exec-1] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:53:32.184 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:53:32.189 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:53:48.088 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 74367 (/config/IdeaProjects/rentacar/target/classes started by abc in /config/IdeaProjects/rentacar)
+20:53:48.098 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:53:48.139 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:53:48.139 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:53:48.799 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:53:48.814 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+20:53:49.282 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:53:49.292 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:53:49.294 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:53:49.295 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:53:49.329 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:53:49.329 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1189 ms
+20:53:49.587 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:53:49.636 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@52826b0d
+20:53:49.637 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:53:49.773 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:53:50.215 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:53:50.231 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:53:50.242 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:53:50.249 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 2.551 seconds (process running for 3.568)
+20:53:54.812 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:53:54.813 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:53:54.814 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:53:54.840 [http-nio-8080-exec-1] INFO  _12a.rentacar.Baza - Polączono do bazy
+20:53:54.847 [http-nio-8080-exec-1] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:53:55.604 [http-nio-8080-exec-9] INFO  _12a.rentacar.RentacarController - Loaded /dostepne mapping
+20:53:56.050 [http-nio-8080-exec-8] INFO  _12a.rentacar.RentacarController - Loaded /rejestracja mapping
+20:53:56.468 [http-nio-8080-exec-2] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:54:00.035 [http-nio-8080-exec-3] INFO  _12a.rentacar.RentacarController - Loaded /dzieki mapping
+20:54:05.213 [http-nio-8080-exec-5] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:54:32.571 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:54:32.575 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:54:35.090 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 74480 (/config/IdeaProjects/rentacar/target/classes started by abc in /config/IdeaProjects/rentacar)
+20:54:35.095 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:54:35.129 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:54:35.129 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:54:35.672 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:54:35.686 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+20:54:36.111 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:54:36.121 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:54:36.122 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:54:36.122 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:54:36.156 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:54:36.156 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1027 ms
+20:54:36.390 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:54:36.436 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@2b983444
+20:54:36.437 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:54:36.576 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:54:37.006 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:54:37.024 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:54:37.044 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:54:37.052 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 2.282 seconds (process running for 3.294)
+20:54:39.324 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:54:39.324 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:54:39.326 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:54:39.348 [http-nio-8080-exec-1] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:54:43.064 [http-nio-8080-exec-4] INFO  _12a.rentacar.RentacarController - Loaded /dzieki mapping
+20:54:48.173 [http-nio-8080-exec-5] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:55:46.196 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:55:46.208 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:55:48.543 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 74596 (/config/IdeaProjects/rentacar/target/classes started by abc in /config/IdeaProjects/rentacar)
+20:55:48.551 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:55:48.601 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:55:48.601 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:55:49.181 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:55:49.196 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+20:55:49.746 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:55:49.757 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:55:49.759 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:55:49.759 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:55:49.795 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:55:49.795 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1193 ms
+20:55:50.065 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:55:50.113 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5abc9b7e
+20:55:50.114 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:55:50.263 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:55:50.710 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:55:50.728 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:55:50.739 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:55:50.747 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 2.616 seconds (process running for 3.581)
+20:55:50.917 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:55:50.917 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:55:50.919 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+20:55:50.947 [http-nio-8080-exec-2] INFO  _12a.rentacar.RentacarController - Loaded /dzieki mapping
+20:55:52.607 [http-nio-8080-exec-4] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:55:54.221 [http-nio-8080-exec-7] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:55:56.670 [http-nio-8080-exec-10] INFO  _12a.rentacar.RentacarController - Loaded /dzieki mapping
+20:56:02.458 [http-nio-8080-exec-2] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:58:12.931 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:58:12.936 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:00:06.057 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:00:06.153 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+20:00:06.386 [main] INFO  _12a.rentacar.testBazy - Polączono do bazy
+20:00:06.429 [main] INFO  org.springframework.boot.devtools.restart.RestartApplicationListener - Restart disabled due to context in which it is running
+20:00:06.648 [main] INFO  _12a.rentacar.RentacarApplicationTests - Starting RentacarApplicationTests using Java 21.0.1 with PID 7476 (started by asoli in F:\rentacar-gh)
+20:00:06.650 [main] INFO  _12a.rentacar.RentacarApplicationTests - No active profile set, falling back to 1 default profile: "default"
+20:00:07.117 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:00:07.138 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+20:00:07.597 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+20:00:07.609 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+20:00:07.611 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:00:07.612 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:00:07.677 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:00:07.678 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1015 ms
+20:00:07.877 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:00:07.929 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@43c0c13a
+20:00:07.931 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:00:08.057 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:00:08.457 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+20:00:08.457 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+20:00:08.457 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+20:00:08.488 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+20:00:08.497 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 55614 (http) with context path ''
+20:00:08.507 [main] INFO  _12a.rentacar.RentacarApplicationTests - Started RentacarApplicationTests in 2.087 seconds (process running for 3.457)
+20:00:09.147 [main] INFO  _12a.rentacar.Baza - Polączono do bazy
+20:00:09.158 [main] INFO  _12a.rentacar.RentacarController - Loaded /dostepne mapping
+20:00:09.357 [main] INFO  _12a.rentacar.RentacarApplicationTests - HTTP status code: 200
+20:00:09.371 [main] INFO  _12a.rentacar.RentacarApplicationTests - Rekord został dodany do bazy!
+20:00:09.376 [main] INFO  _12a.rentacar.RentacarController - Loaded /dzieki mapping
+20:00:09.379 [main] INFO  _12a.rentacar.RentacarApplicationTests - HTTP status code: 200
+20:00:09.384 [main] INFO  _12a.rentacar.RentacarApplicationTests - Rekord został dodany do bazy!
+20:00:09.388 [main] INFO  _12a.rentacar.RentacarController - Loaded /rejestracja mapping
+20:00:09.393 [main] INFO  _12a.rentacar.RentacarApplicationTests - HTTP status code: 200
+20:00:09.398 [main] INFO  _12a.rentacar.RentacarController - Loaded /wypozycz mapping
+20:00:09.402 [main] INFO  _12a.rentacar.RentacarApplicationTests - HTTP status code: 200
+20:00:09.410 [main] INFO  _12a.rentacar.RentacarApplicationTests - Połączono z bazą!
+20:00:09.417 [main] INFO  _12a.rentacar.RentacarApplicationTests - Expected output: 29 Dni
+20:00:09.419 [main] INFO  _12a.rentacar.RentacarApplicationTests - Wynik metody: 29 Dni
+20:00:09.428 [main] INFO  _12a.rentacar.RentacarController - Loaded / mapping
+20:00:09.428 [main] INFO  _12a.rentacar.RentacarApplicationTests - HTTP status code: 200
+20:00:09.455 [main] INFO  _12a.rentacar.RentacarApplicationTests - Rekord testowy został dodany do tabeli Samochody!
+20:00:09.470 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:00:09.479 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:00:24.358 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:00:24.437 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+20:00:24.637 [main] INFO  _12a.rentacar.testBazy - Polączono do bazy
+20:00:24.667 [main] INFO  org.springframework.boot.devtools.restart.RestartApplicationListener - Restart disabled due to context in which it is running
+20:00:24.867 [main] INFO  _12a.rentacar.RentacarApplicationTests - Starting RentacarApplicationTests using Java 21.0.1 with PID 11696 (started by asoli in F:\rentacar-gh)
+20:00:24.867 [main] INFO  _12a.rentacar.RentacarApplicationTests - No active profile set, falling back to 1 default profile: "default"
+20:00:25.334 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:00:25.347 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+20:00:25.798 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+20:00:25.807 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+20:00:25.817 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:00:25.817 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:00:25.876 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:00:25.876 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 993 ms
+20:00:26.100 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:00:26.140 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@731db93f
+20:00:26.140 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:00:26.256 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:00:26.649 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring TestDispatcherServlet ''
+20:00:26.649 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+20:00:26.649 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+20:00:26.685 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+20:00:26.701 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 55637 (http) with context path ''
+20:00:26.707 [main] INFO  _12a.rentacar.RentacarApplicationTests - Started RentacarApplicationTests in 2.046 seconds (process running for 3.207)
+20:00:27.288 [main] INFO  _12a.rentacar.RentacarApplicationTests - Połączono z bazą!
+20:00:27.331 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:00:27.336 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:08:48.455 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 4032 (F:\rentacar-gh\target\classes started by asoli in F:\rentacar-gh)
+20:08:48.463 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:08:48.500 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:08:48.500 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:08:48.975 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:08:48.990 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+20:08:49.445 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:08:49.455 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:08:49.458 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:08:49.458 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:08:49.499 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:08:49.501 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 999 ms
+20:08:49.688 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:08:49.742 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@33b33a24
+20:08:49.743 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:08:49.851 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:08:50.216 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:08:50.225 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:08:50.237 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:08:50.246 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 2.035 seconds (process running for 2.682)
+20:09:03.947 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 7476 (F:\rentacar-gh\target\classes started by asoli in F:\rentacar-gh)
+20:09:03.956 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:09:03.991 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+20:09:03.991 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+20:09:04.461 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:09:04.475 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+20:09:04.938 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:09:04.949 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:09:04.951 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:09:04.951 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:09:04.995 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:09:04.998 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1004 ms
+20:09:05.193 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:09:05.250 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@489b13a6
+20:09:05.251 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:09:05.367 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:09:05.752 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:09:05.762 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:09:05.788 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:09:05.798 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 2.095 seconds (process running for 2.698)
+20:10:00.362 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+20:10:00.374 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+20:10:00.382 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:10:00.390 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:11:33.061 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 7476 (F:\rentacar-gh\target\classes started by asoli in F:\rentacar-gh)
+20:11:33.062 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:11:33.157 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:11:33.157 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+20:11:33.221 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:11:33.222 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:11:33.223 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:11:33.223 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:11:33.238 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:11:33.238 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 174 ms
+20:11:33.290 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+20:11:33.295 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.mariadb.jdbc.MariaDbConnection@3e95801e
+20:11:33.295 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+20:11:33.306 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:11:33.385 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:11:33.389 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:11:33.392 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:11:33.394 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 0.362 seconds (process running for 150.293)
+20:11:33.395 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+20:11:52.251 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+20:11:52.254 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+20:11:52.260 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+20:11:52.265 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+20:11:52.359 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 7476 (F:\rentacar-gh\target\classes started by asoli in F:\rentacar-gh)
+20:11:52.360 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:11:52.453 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:11:52.454 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+20:11:52.502 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:11:52.503 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:11:52.504 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:11:52.504 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:11:52.522 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:11:52.522 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 161 ms
+20:11:52.571 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+20:11:52.577 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.mariadb.jdbc.MariaDbConnection@3f630e59
+20:11:52.578 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+20:11:52.593 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:11:52.661 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:11:52.664 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:11:52.667 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:11:52.669 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 0.366 seconds (process running for 169.569)
+20:11:52.671 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+20:12:01.236 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+20:12:01.236 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+20:12:01.246 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+20:12:01.251 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+20:12:01.315 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Starting RentacarApplication using Java 21.0.1 with PID 7476 (F:\rentacar-gh\target\classes started by asoli in F:\rentacar-gh)
+20:12:01.315 [restartedMain] INFO  _12a.rentacar.RentacarApplication - No active profile set, falling back to 1 default profile: "default"
+20:12:01.396 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+20:12:01.405 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+20:12:01.447 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:12:01.447 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:12:01.447 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:12:01.447 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+20:12:01.477 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:12:01.477 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 160 ms
+20:12:01.512 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+20:12:01.516 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.mariadb.jdbc.MariaDbConnection@48a522ee
+20:12:01.516 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+20:12:01.527 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+20:12:01.586 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:12:01.591 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:12:01.592 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+20:12:01.596 [restartedMain] INFO  _12a.rentacar.RentacarApplication - Started RentacarApplication in 0.309 seconds (process running for 178.495)
+20:12:01.597 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+20:12:47.985 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+20:12:47.988 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+20:12:47.994 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+20:12:48.002 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.

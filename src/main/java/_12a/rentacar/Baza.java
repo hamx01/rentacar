@@ -27,7 +27,7 @@ public class Baza {
     }
 
     static class Klienci {
-        public static boolean insertRecord(
+        public static boolean dodajKlienta(
                 String pesel,
                 String imie,
                 String nazwisko,
@@ -53,10 +53,25 @@ public class Baza {
                 throw new RuntimeException(e);
             }
         }
+
+        public static boolean usunKlienta(String pesel) {
+            String deleteQuery = "DELETE FROM Klienci WHERE pesel = ?";
+
+            try(PreparedStatement preparedStatement = connection.prepareStatement(deleteQuery)) {
+                preparedStatement.setString(0, pesel);
+
+                int rowsAffected = preparedStatement.executeUpdate();
+
+                return rowsAffected > 0;
+            } catch (SQLException e) {
+                logger.error("Nie udało się usunąć rekordu z bazy");
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     static class Wypozyczenia {
-        public static boolean insertRecord (
+        public static boolean dodajWypozyczenie (
                 String selectedCar,
                 String pesel,
                 String pickup_date,
@@ -81,6 +96,21 @@ public class Baza {
                 throw new RuntimeException(e);
             }
         }
+        
+        public static boolean usunWypozyczenie(String id) {
+            String deleteQuery = "DELETE FROM Wypozyczenia WHERE WypozyczenieID = ?";
+
+            try(PreparedStatement preparedStatement = connection.prepareStatement(deleteQuery)) {
+                preparedStatement.setString(0, id);
+
+                int rowsAffected = preparedStatement.executeUpdate();
+
+                return rowsAffected > 0;
+            } catch (SQLException e) {
+                logger.error("Nie udało się usunąć rekordu z bazy");
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     static class Samochody {
@@ -98,7 +128,7 @@ public class Baza {
 
                 return cenaDzienna;
             } catch (SQLException e) {
-                logger.error("Nie udało się wstawić rekordu do bazy");
+                logger.error("Nie udało się pobrać rekordu z bazy");
                 throw new RuntimeException(e);
             }
         }
@@ -116,7 +146,47 @@ public class Baza {
                     return marka+" "+model;
                 }
             } catch (SQLException e) {
+                logger.error("Nie udało się pobrać rekordu z bazy");
+                throw new RuntimeException(e);
+            }
+        }
+        
+        public static boolean dodajSamochod(
+            String Marka,
+            String Model,
+            int RokProdukcji,
+            int CenaDzienna,
+            String Dostepnosc
+        ) {
+            String query = "INSERT INTO Samochody (SamochodID, Marka, Model, RokProdukcji, CenaDzienna, Dostepnosc) VALUES (NULL, '?', '?', '?', '?', '?')";
+
+            try(PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                preparedStatement.setString(0, Marka);
+                preparedStatement.setString(1, Model);
+                preparedStatement.setInt(2, RokProdukcji);
+                preparedStatement.setInt(3, CenaDzienna);
+                preparedStatement.setString(4, Dostepnosc);
+
+                int rowsAffected = preparedStatement.executeUpdate();
+
+                return rowsAffected > 0;
+            } catch (SQLException e) {
                 logger.error("Nie udało się wstawić rekordu do bazy");
+                throw new RuntimeException(e);
+            }
+        }
+
+        public static boolean usunSamochod(String id) {
+            String deleteQuery = "DELETE FROM Samochody WHERE SamochodID = ?";
+
+            try(PreparedStatement preparedStatement = connection.prepareStatement(deleteQuery)) {
+                preparedStatement.setString(0, id);
+
+                int rowsAffected = preparedStatement.executeUpdate();
+
+                return rowsAffected > 0;
+            } catch (SQLException e) {
+                logger.error("Nie udało się usunąć rekordu z bazy");
                 throw new RuntimeException(e);
             }
         }

@@ -5,10 +5,12 @@ import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
 
+import javax.management.RuntimeErrorException;
+
 public class testBazy {
 
     private static final Logger logger = LogManager.getLogger(testBazy.class);
-    private static final String DB_URL = "jdbc:mysql://192.168.0.130:3306/wypozyczalnia";
+    private static final String DB_URL = "jdbc:mariadb://192.168.0.130:3306/wypozyczalnia";
     private static final String DB_USER = "wypozyczalnia_user";
     private static final String DB_PASSWORD = "password";
     private static final Connection connection;
@@ -23,24 +25,18 @@ public class testBazy {
         }
     }
 
-//    public void testTableKlienci() {
-//        String insertQuery = "INSERT INTO Klienci (pesel, imie, nazwisko, adres, numer_telefonu, email) VALUES ('01234567890', 'test', 'test', 'test', '000000000', 'test@example.com')";
-//        try (PreparedStatement insertion = connection.prepareStatement(insertQuery)) {
-//            insertion.executeUpdate();
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
-//
-//    public void testTableWypozyczenia() {
-//        String insertQuery = "INSERT INTO Wypozyczenia (SamochodID, pesel, DataWypozyczenia, DataZwrotu, KosztWypozyczenia) VALUES ('2','01234567890', '1999-01-01', '1999-01-02', '100')";
-//        try (PreparedStatement insertion = connection.prepareStatement(insertQuery)) {
-//            insertion.executeUpdate();
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
-//
+    public Connection testConToDB() {
+        try (Connection connection = DriverManager.getConnection(
+            "jdbc:mysql://192.168.0.130:3306/wypozyczalnia",
+            "wypozyczalnia_user",
+            "password"
+        )) {
+            return connection;    
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public void testTableSamochody() {
         String insertQuery = "INSERT INTO Samochody (Marka, Model, RokProdukcji, CenaDzienna, Dostepnosc) VALUES ('Test', 'Test', 1970, 250, 'Nie')";
         try (PreparedStatement insertion = connection.prepareStatement(insertQuery)) {

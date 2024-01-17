@@ -2,7 +2,7 @@ package _12a.rentacar;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.config.Configurator;
+// import org.apache.logging.log4j.core.config.Configurator;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.testng.annotations.BeforeClass;
+// import org.testng.annotations.BeforeClass;
 
 import java.sql.*;
 
@@ -25,13 +25,12 @@ import static org.testng.Assert.assertTrue;
 @AutoConfigureMockMvc
 class RentacarApplicationTests {
     private testBazy baza = new testBazy();
-//    private Baza baza_prod = new Baza();
     private static final Logger logger = LogManager.getLogger(RentacarApplicationTests.class);
 
-    @BeforeClass
-    public static void setupLogger() {
-        Configurator.initialize(null, "log4j2.xml");
-    }
+    // @BeforeClass
+    // public static void setupLogger() {
+    //     Configurator.initialize(null, "log4j2.xml");
+    // }
 
     @Test
     void testDaysCount() {
@@ -103,16 +102,8 @@ class RentacarApplicationTests {
         logger.info("HTTP status code: " + rejestracja.getResponse().getStatus());
     }
 
-    @AfterAll
-    public static void cleanup() {
-        testBazy.deleteRecordIfExists();
-    }
-
-
     @Test
     public void testInsertForSamochody() {
-//        baza.testTableKlienci();
-//        baza.testTableWypozyczenia();
         baza.testTableSamochody();
 
         assertTrue(baza.checkIfRecordExistsSamochody());
@@ -121,22 +112,11 @@ class RentacarApplicationTests {
         } else {
             logger.error("Rekord nie mógł być dodany do tabeli Samochody!");
         }
-
-//        assertTrue(baza.checkIfRecordExistsKlienci(), "Rekord nie został dodany do bazy danych.");
-//        if(baza.checkIfRecordExistsKlienci()) {
-//            System.out.println("Rekord testowy został dodany do tabeli Klienci!");
-//        }
-
-//        assertTrue(baza.checkIfRecordExistsWypozyczenia(), "Rekord nie został dodany do bazy danych.");
-//        if(baza.checkIfRecordExistsWypozyczenia()) {
-//            System.out.println("Rekord testowy został dodany do tabeli Wypozyczenia!");
-//        }
-
     }
 
     @Test
     public void testInsertForKlienci() {
-        boolean wynik = Baza.Klienci.insertRecord("01234567890", "test", "test", "test", "000000000", "test@example.com");
+        boolean wynik = Baza.Klienci.dodajKlienta("01234567890", "test", "test", "test", "000000000", "test@example.com");
         if(wynik) {
             logger.info("Rekord został dodany do bazy!");
         } else {
@@ -147,12 +127,17 @@ class RentacarApplicationTests {
 
     @Test
     public void testInsertForWypozyczenia() {
-        boolean wynik = Baza.Wypozyczenia.insertRecord("2","01234567890", "1999-01-01", "1999-01-02", Integer.parseInt("100"));
+        boolean wynik = Baza.Wypozyczenia.dodajWypozyczenie("2","01234567890", "1999-01-01", "1999-01-02", Integer.parseInt("100"));
         if(wynik) {
             logger.info("Rekord został dodany do bazy!");
         } else {
             logger.error("Nie udało się dodać rekordu testowego do bazy");
         }
         assertTrue(wynik);
+    }
+
+    @AfterAll
+    public static void cleanup() {
+        testBazy.deleteRecordIfExists();
     }
 }
