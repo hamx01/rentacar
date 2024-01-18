@@ -2,7 +2,6 @@ package _12a.rentacar;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-// import org.apache.logging.log4j.core.config.Configurator;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +10,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-// import org.testng.annotations.BeforeClass;
-
-import java.sql.*;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.testng.Assert.assertEquals;
@@ -24,7 +20,7 @@ import static org.testng.Assert.assertTrue;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT) // must be here to MockMvc work
 @AutoConfigureMockMvc
 class RentacarApplicationTests {
-    private testBazy baza = new testBazy();
+    private final testBazy baza = new testBazy();
     private static final Logger logger = LogManager.getLogger(RentacarApplicationTests.class);
 
     // @BeforeClass
@@ -43,21 +39,13 @@ class RentacarApplicationTests {
 
     @Test
     public void testConToDB() {
-        try (Connection connection = DriverManager.getConnection(
-                "jdbc:mysql://192.168.0.130:3306/wypozyczalnia",
-                "wypozyczalnia_user",
-                "password")) {
-            if (connection != null) {
-                logger.info("Połączono z bazą!");
-            } else {
-                logger.error("Problem połączenia z bazą!");
-            }
-            assertNotNull(connection);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        if (baza.getConnection() != null) {
+            logger.info("Połączono z bazą!");
+        } else {
+            logger.error("Problem połączenia z bazą!");
         }
+        assertNotNull(baza.getConnection());
     }
-
 
     @Autowired
     private MockMvc mockMvc;

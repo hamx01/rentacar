@@ -3,16 +3,27 @@ package _12a.rentacar;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
-
-import javax.management.RuntimeErrorException;
+import java.util.Properties;
 
 public class testBazy {
 
     private static final Logger logger = LogManager.getLogger(testBazy.class);
-    private static final String DB_URL = "jdbc:mariadb://192.168.0.130:3306/wypozyczalnia";
-    private static final String DB_USER = "wypozyczalnia_user";
-    private static final String DB_PASSWORD = "password";
+    static Properties props = new Properties();
+
+    static {
+        try (InputStream input = new FileInputStream("src/main/resources/application.properties")) {
+            props.load(input);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    private static final String DB_URL = props.getProperty("spring.datasource.url");
+    private static final String DB_USER = props.getProperty("spring.datasource.username");
+    private static final String DB_PASSWORD = props.getProperty("spring.datasource.password");
     private static final Connection connection;
 
     static {
@@ -25,16 +36,8 @@ public class testBazy {
         }
     }
 
-    public Connection testConToDB() {
-        try (Connection connection = DriverManager.getConnection(
-            "jdbc:mysql://192.168.0.130:3306/wypozyczalnia",
-            "wypozyczalnia_user",
-            "password"
-        )) {
-            return connection;    
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+    public Connection getConnection() {
+        return connection;
     }
 
     public void testTableSamochody() {

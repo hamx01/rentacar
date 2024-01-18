@@ -121,3 +121,208 @@
 [INFO ] 2024-01-17 20:20:58.653 [restartedMain] TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
 [INFO ] 2024-01-17 20:20:58.656 [restartedMain] RentacarApplication - Started RentacarApplication in 0.335 seconds (process running for 208.243)
 [INFO ] 2024-01-17 20:20:58.656 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2024-01-18 08:34:34.522 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2024-01-18 08:34:34.647 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+[INFO ] 2024-01-18 08:34:34.831 [main] testBazy - Polączono do bazy
+[INFO ] 2024-01-18 08:34:34.872 [main] RestartApplicationListener - Restart disabled due to context in which it is running
+[INFO ] 2024-01-18 08:34:35.121 [main] RentacarApplicationTests - Starting RentacarApplicationTests using Java 21.0.1 with PID 2156 (started by abc in /config/IdeaProjects/rentacar)
+[INFO ] 2024-01-18 08:34:35.124 [main] RentacarApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-01-18 08:34:35.818 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 2024-01-18 08:34:35.836 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+[INFO ] 2024-01-18 08:34:36.485 [main] TomcatWebServer - Tomcat initialized with port 0 (http)
+[INFO ] 2024-01-18 08:34:36.499 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 08:34:36.503 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2024-01-18 08:34:36.504 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+[INFO ] 2024-01-18 08:34:36.558 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-01-18 08:34:36.560 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1421 ms
+[INFO ] 2024-01-18 08:34:36.814 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-01-18 08:34:36.828 [main] HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5d1a859c
+[INFO ] 2024-01-18 08:34:36.829 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-01-18 08:34:36.967 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2024-01-18 08:34:37.515 [main] [/] - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2024-01-18 08:34:37.515 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2024-01-18 08:34:37.516 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2024-01-18 08:34:37.546 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 08:34:37.558 [main] TomcatWebServer - Tomcat started on port 42099 (http) with context path ''
+[INFO ] 2024-01-18 08:34:37.567 [main] RentacarApplicationTests - Started RentacarApplicationTests in 2.704 seconds (process running for 5.586)
+[INFO ] 2024-01-18 08:34:38.246 [main] Baza - Polączono do bazy
+[INFO ] 2024-01-18 08:34:38.260 [main] RentacarController - Loaded /dostepne mapping
+[INFO ] 2024-01-18 08:34:38.587 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 08:34:38.602 [main] RentacarApplicationTests - Rekord został dodany do bazy!
+[INFO ] 2024-01-18 08:34:38.609 [main] RentacarController - Loaded /dzieki mapping
+[INFO ] 2024-01-18 08:34:38.612 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 08:34:38.618 [main] RentacarApplicationTests - Rekord został dodany do bazy!
+[INFO ] 2024-01-18 08:34:38.623 [main] RentacarController - Loaded /rejestracja mapping
+[INFO ] 2024-01-18 08:34:38.628 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 08:34:38.633 [main] RentacarController - Loaded /wypozycz mapping
+[INFO ] 2024-01-18 08:34:38.638 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 08:34:38.782 [main] RentacarApplicationTests - Połączono z bazą!
+[INFO ] 2024-01-18 08:34:38.790 [main] RentacarApplicationTests - Expected output: 29 Dni
+[INFO ] 2024-01-18 08:34:38.792 [main] RentacarApplicationTests - Wynik metody: 29 Dni
+[INFO ] 2024-01-18 08:34:38.799 [main] RentacarController - Loaded / mapping
+[INFO ] 2024-01-18 08:34:38.807 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 08:34:38.813 [main] RentacarApplicationTests - Rekord testowy został dodany do tabeli Samochody!
+[INFO ] 2024-01-18 08:34:38.832 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-01-18 08:34:38.836 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-01-18 09:03:54.176 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2024-01-18 09:03:54.282 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+[INFO ] 2024-01-18 09:05:02.281 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2024-01-18 09:05:02.502 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+[INFO ] 2024-01-18 09:05:42.071 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2024-01-18 09:05:42.197 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+[INFO ] 2024-01-18 09:05:42.353 [main] testBazy - Polączono do bazy
+[INFO ] 2024-01-18 09:05:42.395 [main] RestartApplicationListener - Restart disabled due to context in which it is running
+[INFO ] 2024-01-18 09:05:42.636 [main] RentacarApplicationTests - Starting RentacarApplicationTests using Java 21.0.1 with PID 2803 (started by abc in /config/IdeaProjects/rentacar)
+[INFO ] 2024-01-18 09:05:42.639 [main] RentacarApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-01-18 09:05:43.398 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 2024-01-18 09:05:43.426 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 JDBC repository interfaces.
+[INFO ] 2024-01-18 09:05:44.011 [main] TomcatWebServer - Tomcat initialized with port 0 (http)
+[INFO ] 2024-01-18 09:05:44.024 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 09:05:44.027 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2024-01-18 09:05:44.028 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+[INFO ] 2024-01-18 09:05:44.077 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-01-18 09:05:44.079 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1421 ms
+[INFO ] 2024-01-18 09:05:44.326 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-01-18 09:05:44.343 [main] HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@5940b14e
+[INFO ] 2024-01-18 09:05:44.344 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-01-18 09:05:44.497 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2024-01-18 09:05:45.031 [main] [/] - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2024-01-18 09:05:45.032 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2024-01-18 09:05:45.033 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2024-01-18 09:05:45.074 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 09:05:45.088 [main] TomcatWebServer - Tomcat started on port 41927 (http) with context path ''
+[INFO ] 2024-01-18 09:05:45.098 [main] RentacarApplicationTests - Started RentacarApplicationTests in 2.714 seconds (process running for 4.404)
+[INFO ] 2024-01-18 09:05:45.997 [main] RentacarController - Loaded /dzieki mapping
+[INFO ] 2024-01-18 09:05:46.326 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:05:46.339 [main] RentacarController - Loaded /rejestracja mapping
+[INFO ] 2024-01-18 09:05:46.347 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:05:46.354 [main] RentacarController - Loaded /wypozycz mapping
+[INFO ] 2024-01-18 09:05:46.362 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:05:46.540 [main] RentacarApplicationTests - Połączono z bazą!
+[INFO ] 2024-01-18 09:05:46.551 [main] RentacarApplicationTests - Expected output: 29 Dni
+[INFO ] 2024-01-18 09:05:46.553 [main] RentacarApplicationTests - Wynik metody: 29 Dni
+[INFO ] 2024-01-18 09:05:46.571 [main] RentacarApplicationTests - Rekord testowy został dodany do tabeli Samochody!
+[INFO ] 2024-01-18 09:05:46.588 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-01-18 09:05:46.593 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-01-18 09:53:29.773 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2024-01-18 09:53:29.901 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+[INFO ] 2024-01-18 09:53:30.076 [main] testBazy - Polączono do bazy
+[INFO ] 2024-01-18 09:53:30.115 [main] RestartApplicationListener - Restart disabled due to context in which it is running
+[INFO ] 2024-01-18 09:53:30.350 [main] RentacarApplicationTests - Starting RentacarApplicationTests using Java 21.0.1 with PID 2993 (started by abc in /config/IdeaProjects/rentacar)
+[INFO ] 2024-01-18 09:53:30.355 [main] RentacarApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-01-18 09:53:31.068 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 2024-01-18 09:53:31.084 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+[INFO ] 2024-01-18 09:53:31.642 [main] TomcatWebServer - Tomcat initialized with port 0 (http)
+[INFO ] 2024-01-18 09:53:31.657 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 09:53:31.660 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2024-01-18 09:53:31.661 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+[INFO ] 2024-01-18 09:53:31.717 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-01-18 09:53:31.719 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1337 ms
+[INFO ] 2024-01-18 09:53:32.099 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-01-18 09:53:32.113 [main] HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@74431b9c
+[INFO ] 2024-01-18 09:53:32.115 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-01-18 09:53:32.252 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2024-01-18 09:53:32.795 [main] [/] - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2024-01-18 09:53:32.796 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2024-01-18 09:53:32.797 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2024-01-18 09:53:32.830 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 09:53:32.844 [main] TomcatWebServer - Tomcat started on port 32787 (http) with context path ''
+[INFO ] 2024-01-18 09:53:32.854 [main] RentacarApplicationTests - Started RentacarApplicationTests in 2.748 seconds (process running for 4.418)
+[INFO ] 2024-01-18 09:53:33.605 [main] RentacarController - Loaded /dzieki mapping
+[INFO ] 2024-01-18 09:53:33.874 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:53:33.887 [main] RentacarController - Loaded /rejestracja mapping
+[INFO ] 2024-01-18 09:53:33.895 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:53:33.900 [main] RentacarController - Loaded /wypozycz mapping
+[INFO ] 2024-01-18 09:53:33.906 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:53:34.047 [main] RentacarApplicationTests - Połączono z bazą!
+[INFO ] 2024-01-18 09:53:34.061 [main] RentacarApplicationTests - Expected output: 29 Dni
+[INFO ] 2024-01-18 09:53:34.066 [main] RentacarApplicationTests - Wynik metody: 29 Dni
+[INFO ] 2024-01-18 09:53:34.086 [main] RentacarApplicationTests - Rekord testowy został dodany do tabeli Samochody!
+[INFO ] 2024-01-18 09:53:34.107 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-01-18 09:53:34.112 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-01-18 09:54:25.091 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2024-01-18 09:54:25.210 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+[INFO ] 2024-01-18 09:54:25.379 [main] testBazy - Polączono do bazy
+[INFO ] 2024-01-18 09:54:25.421 [main] RestartApplicationListener - Restart disabled due to context in which it is running
+[INFO ] 2024-01-18 09:54:25.646 [main] RentacarApplicationTests - Starting RentacarApplicationTests using Java 21.0.1 with PID 3119 (started by abc in /config/IdeaProjects/rentacar)
+[INFO ] 2024-01-18 09:54:25.650 [main] RentacarApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-01-18 09:54:26.275 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 2024-01-18 09:54:26.295 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+[INFO ] 2024-01-18 09:54:26.889 [main] TomcatWebServer - Tomcat initialized with port 0 (http)
+[INFO ] 2024-01-18 09:54:26.902 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 09:54:26.905 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2024-01-18 09:54:26.906 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+[INFO ] 2024-01-18 09:54:26.954 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-01-18 09:54:26.956 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1291 ms
+[INFO ] 2024-01-18 09:54:27.263 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-01-18 09:54:27.278 [main] HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@1883871b
+[INFO ] 2024-01-18 09:54:27.280 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-01-18 09:54:27.452 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2024-01-18 09:54:27.961 [main] [/] - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2024-01-18 09:54:27.962 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2024-01-18 09:54:27.963 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2024-01-18 09:54:27.993 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 09:54:28.017 [main] TomcatWebServer - Tomcat started on port 39339 (http) with context path ''
+[INFO ] 2024-01-18 09:54:28.030 [main] RentacarApplicationTests - Started RentacarApplicationTests in 2.619 seconds (process running for 4.503)
+[INFO ] 2024-01-18 09:54:28.714 [main] Baza - Polączono do bazy
+[INFO ] 2024-01-18 09:54:28.728 [main] RentacarController - Loaded /dostepne mapping
+[INFO ] 2024-01-18 09:54:28.989 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:29.016 [main] RentacarApplicationTests - Rekord został dodany do bazy!
+[INFO ] 2024-01-18 09:54:29.029 [main] RentacarController - Loaded /dzieki mapping
+[INFO ] 2024-01-18 09:54:29.041 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:29.050 [main] RentacarApplicationTests - Rekord został dodany do bazy!
+[INFO ] 2024-01-18 09:54:29.060 [main] RentacarController - Loaded /rejestracja mapping
+[INFO ] 2024-01-18 09:54:29.066 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:29.070 [main] RentacarController - Loaded /wypozycz mapping
+[INFO ] 2024-01-18 09:54:29.076 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:29.214 [main] RentacarApplicationTests - Połączono z bazą!
+[INFO ] 2024-01-18 09:54:29.223 [main] RentacarApplicationTests - Expected output: 29 Dni
+[INFO ] 2024-01-18 09:54:29.224 [main] RentacarApplicationTests - Wynik metody: 29 Dni
+[INFO ] 2024-01-18 09:54:29.233 [main] RentacarController - Loaded / mapping
+[INFO ] 2024-01-18 09:54:29.242 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:29.248 [main] RentacarApplicationTests - Rekord testowy został dodany do tabeli Samochody!
+[INFO ] 2024-01-18 09:54:29.275 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-01-18 09:54:29.280 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-01-18 09:54:52.514 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [_12a.rentacar.RentacarApplicationTests]: RentacarApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2024-01-18 09:54:52.648 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration _12a.rentacar.RentacarApplication for test class _12a.rentacar.RentacarApplicationTests
+[INFO ] 2024-01-18 09:54:52.801 [main] testBazy - Polączono do bazy
+[INFO ] 2024-01-18 09:54:52.847 [main] RestartApplicationListener - Restart disabled due to context in which it is running
+[INFO ] 2024-01-18 09:54:53.099 [main] RentacarApplicationTests - Starting RentacarApplicationTests using Java 21.0.1 with PID 3228 (started by abc in /config/IdeaProjects/rentacar)
+[INFO ] 2024-01-18 09:54:53.102 [main] RentacarApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-01-18 09:54:53.739 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[INFO ] 2024-01-18 09:54:53.755 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+[INFO ] 2024-01-18 09:54:54.290 [main] TomcatWebServer - Tomcat initialized with port 0 (http)
+[INFO ] 2024-01-18 09:54:54.303 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 09:54:54.306 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2024-01-18 09:54:54.307 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+[INFO ] 2024-01-18 09:54:54.355 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-01-18 09:54:54.357 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1238 ms
+[INFO ] 2024-01-18 09:54:54.621 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-01-18 09:54:54.637 [main] HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.MariaDbConnection@72224107
+[INFO ] 2024-01-18 09:54:54.639 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-01-18 09:54:54.785 [main] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2024-01-18 09:54:55.290 [main] [/] - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2024-01-18 09:54:55.290 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2024-01-18 09:54:55.291 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2024-01-18 09:54:55.321 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO ] 2024-01-18 09:54:55.336 [main] TomcatWebServer - Tomcat started on port 43941 (http) with context path ''
+[INFO ] 2024-01-18 09:54:55.351 [main] RentacarApplicationTests - Started RentacarApplicationTests in 2.52 seconds (process running for 4.217)
+[INFO ] 2024-01-18 09:54:56.067 [main] Baza - Polączono do bazy
+[INFO ] 2024-01-18 09:54:56.079 [main] RentacarController - Loaded /dostepne mapping
+[INFO ] 2024-01-18 09:54:56.394 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:56.419 [main] RentacarApplicationTests - Rekord został dodany do bazy!
+[INFO ] 2024-01-18 09:54:56.429 [main] RentacarController - Loaded /dzieki mapping
+[INFO ] 2024-01-18 09:54:56.433 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:56.438 [main] RentacarApplicationTests - Rekord został dodany do bazy!
+[INFO ] 2024-01-18 09:54:56.444 [main] RentacarController - Loaded /rejestracja mapping
+[INFO ] 2024-01-18 09:54:56.449 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:56.454 [main] RentacarController - Loaded /wypozycz mapping
+[INFO ] 2024-01-18 09:54:56.460 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:56.607 [main] RentacarApplicationTests - Połączono z bazą!
+[INFO ] 2024-01-18 09:54:56.619 [main] RentacarApplicationTests - Expected output: 29 Dni
+[INFO ] 2024-01-18 09:54:56.621 [main] RentacarApplicationTests - Wynik metody: 29 Dni
+[INFO ] 2024-01-18 09:54:56.631 [main] RentacarController - Loaded / mapping
+[INFO ] 2024-01-18 09:54:56.643 [main] RentacarApplicationTests - HTTP status code: 200
+[INFO ] 2024-01-18 09:54:56.651 [main] RentacarApplicationTests - Rekord testowy został dodany do tabeli Samochody!
+[INFO ] 2024-01-18 09:54:56.674 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-01-18 09:54:56.678 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
