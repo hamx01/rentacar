@@ -23,11 +23,6 @@ class RentacarApplicationTests {
     private final testBazy baza = new testBazy();
     private static final Logger logger = LogManager.getLogger(RentacarApplicationTests.class);
 
-    // @BeforeClass
-    // public static void setupLogger() {
-    //     Configurator.initialize(null, "log4j2.xml");
-    // }
-
     @Test
     void testDaysCount() {
         logger.info("Expected output: 29 Dni");
@@ -94,12 +89,12 @@ class RentacarApplicationTests {
     public void testInsertForSamochody() {
         baza.testTableSamochody();
 
-        assertTrue(baza.checkIfRecordExistsSamochody());
         if(baza.checkIfRecordExistsSamochody()) {
             logger.info("Rekord testowy został dodany do tabeli Samochody!");
         } else {
             logger.error("Rekord nie mógł być dodany do tabeli Samochody!");
         }
+        assertTrue(baza.checkIfRecordExistsSamochody());
     }
 
     @Test

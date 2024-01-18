@@ -2,7 +2,6 @@ package _12a.rentacar;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-// import org.apache.logging.log4j.core.config.Configurator;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,10 +18,6 @@ import java.time.format.DateTimeFormatter;
 public class RentacarController {
     private static final Logger logger = LogManager.getLogger(RentacarController.class);
 
-    // static {
-    //     Configurator.initialize(null, "log4j2.xml");
-    // }
-
     @RequestMapping("/")
     public String home(Model model) {
         for(int i = 1; i<=3; i++) {
@@ -35,7 +30,7 @@ public class RentacarController {
     }
 
     @RequestMapping("/rejestracja")
-    public String rejestracja(Model model) {
+    public String rejestracja() {
         logger.info("Loaded /rejestracja mapping");
         return "rejestracja";
     }
@@ -65,7 +60,7 @@ public class RentacarController {
     }
 
     @RequestMapping("/dzieki")
-    public String dzieki(Model model) {
+    public String dzieki() {
         logger.info("Loaded /dzieki mapping");
         return "dzieki";
     }
